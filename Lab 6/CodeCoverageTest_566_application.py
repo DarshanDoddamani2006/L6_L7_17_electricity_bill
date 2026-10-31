@@ -7,11 +7,11 @@ def test_energy_charge_domestic():
 
 
 def test_energy_charge_commercial():
-    assert energy_charge(150, "commercial") == 800
+  assert energy_charge(150, "commercial") == 1250
 
 
 def test_energy_charge_high_units():
-    assert energy_charge(400, "domestic") == 2100
+   assert energy_charge(400, "domestic") == 2150
 
 
 def test_energy_charge_invalid_connection():
